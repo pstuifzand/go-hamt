@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lleo/go-hamt/hamt32"
+	"github.com/pstuifzand/go-hamt/hamt32"
 )
 
 func TestBuild32(t *testing.T) {

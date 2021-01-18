@@ -10,8 +10,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/lleo/go-hamt/hamt64"
-	"github.com/lleo/stringutil"
+	"github.com/pstuifzand/go-hamt/hamt64"
+	"github.com/pstuifzand/stringutil"
 	"github.com/pkg/errors"
 )
 

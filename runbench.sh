@@ -11,11 +11,11 @@ function msgExit() {
 }
 
 #echo `pwd`
-gohamt="$GOPATH/src/github.com/lleo/go-hamt"
+gohamt="$GOPATH/src/github.com/pstuifzand/go-hamt"
 cd $gohamt 2>/dev/null
 #echo `pwd`
 
-# Am I in the base directory of .../github.com/lleo/go-hamt
+# Am I in the base directory of .../github.com/pstuifzand/go-hamt
 [ -f hamt.go ] || msgExit 1  "I don't see a hamt.go; am i in the base directory of $gohamt ?"
 [ -d hamt32 ] || msgExit 1  "I don't see a hamt32/; am i in the base directory of $gohamt ?"
 [ -d hamt64 ] || msgExit 1  "I don't see a hamt32/; am i in the base directory of $gohamt ?"

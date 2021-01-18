@@ -119,8 +119,8 @@ DepthLimit=6 for hamt32 and DepthLimit=12 for hamt64.
 package hamt
 
 import (
-	"github.com/lleo/go-hamt/hamt32"
-	"github.com/lleo/go-hamt/hamt64"
+	"github.com/pstuifzand/go-hamt/hamt32"
+	"github.com/pstuifzand/go-hamt/hamt64"
 )
 
 const (

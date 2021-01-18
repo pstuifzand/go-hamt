@@ -25,7 +25,7 @@ allocating stringkey32.New(string) Keys, I don't think this is much of a loss.
 However, If your app would somehow be able to cache the string->stringkey32
 mapping you would be loosing performance with each subsequent call to the
 new []byte Public API for Get/Put/Del ops. I think it is worth it for the
-simpler API and no dependency on github.com/lleo/go-hamt/string32 library.
+simpler API and no dependency on github.com/pstuifzand/go-hamt/string32 library.
 Further, Users of this library would not need to implement their own Key type
 for other keys that would have had to be converted to []byte slices anyways.
 Again simpler API for the Win.

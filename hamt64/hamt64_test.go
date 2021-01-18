@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lleo/go-hamt/hamt64"
+	"github.com/pstuifzand/go-hamt/hamt64"
 )
 
 func TestBuild64(t *testing.T) {

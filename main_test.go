@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lleo/go-hamt"
-	"github.com/lleo/go-hamt/hamt32"
-	"github.com/lleo/go-hamt/hamt64"
-	"github.com/lleo/stringutil"
+	"github.com/pstuifzand/go-hamt"
+	"github.com/pstuifzand/go-hamt/hamt32"
+	"github.com/pstuifzand/go-hamt/hamt64"
+	"github.com/pstuifzand/stringutil"
 	"github.com/pkg/errors"
 )
 

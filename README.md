@@ -4,7 +4,7 @@ This package was transient only, now it has a functional mode as well. Transient
 is the classical style of modifying data structures in place. Functional is
 defined below as immutable & persistent.
 
-This is a merger with github.com/lleo/go-hamt-functional, which it obsoletes.
+This is a merger with github.com/pstuifzand/go-hamt-functional, which it obsoletes.
 The motivation for this was because we were seeing slower performance for
 go-hamt-functional Get() operations even though we were certain that the old
 go-hamt and go-hamt-functional were using the same algorithm. This merger
@@ -15,7 +15,7 @@ from transient (modify in place) to functional (copy on write) behavior. Of
 course, this works the other way around as well (that is, we can cast a
 HamtFunctional to HamtTransient).
 
-This package also obsoletes github.com/lleo/go-hamt-key because we pass a []byte
+This package also obsoletes github.com/pstuifzand/go-hamt-key because we pass a []byte
 slice to Get/Put/Del operations instead of a Key data structure. What happens
 is we use the `[]byte` slice to build a Key data structure to be used internally.
 This results in a simpler API and no external dependency.
